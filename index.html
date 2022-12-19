@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Evgeny Polyakov 211-362 LR6</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="section">
+            <p class="name_header">Functions</p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="func1">
+            <form>
+                <p>Возведение в степень</p>
+                <div class="input">
+                    <input type="text" size="30" id="f1n1" placeholder="Первое число" />
+                </div>
+                <div class="input">
+                    <input type="text" size="30" id="f1n2" placeholder="Второе число" />
+                </div>
+                <div class="answer">
+                    <button type="button" class="button" onclick="pow()">Ответ</button>
+                    <p id="resultf1"></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="func2">
+            <form>
+                <p>Нахождение НОД</p>
+                <div class="input">
+                    <input type="text" size="30" id="f2n1" placeholder="Первое число" />
+                </div>
+                <div class="input">
+                    <input type="text" size="30" id="f2n2" placeholder="Второе число" />
+                </div>
+                <div class="answer">
+                    <button type="button" class="button" onclick="gcd()">Ответ</button>
+                    <p id="resultf2"></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="func3">
+            <form>
+                <p>Наименьшая цифра</p>
+                <div class="input">
+                    <input type="text" size="30" id="f3n1" placeholder="Число" />
+                </div>
+                <div class="answer">
+                    <button type="button" class="button" onclick="minDigit()">
+              Ответ
+            </button>
+                    <p id="resultf3"></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="func4">
+            <form>
+                <p>Pluralization</p>
+                <div class="input">
+                    <input type="text" size="30" id="f4n1" placeholder="Число" />
+                </div>
+                <div class="answer">
+                    <button type="button" class="button" onclick="pluralizeRecords()">
+              Ответ
+            </button>
+                    <p id="resultf4"></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="func5">
+            <form>
+                <p>Числа Фибоначчи</p>
+                <div class="input">
+                    <input type="text" size="30" id="f5n1" placeholder="Номер элемента" />
+                </div>
+                <div class="answer">
+                    <button type="button" class="button" onclick="fibb()">Ответ</button>
+                    <p id="resultf5"></p>
+                </div>
+            </form>
+        </div>
+
+        <footer class="footer"></footer>
+    </div>
+    <script src="script/functions.js"></script>
+</body>
+
+</html>

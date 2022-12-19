@@ -1,0 +1,29 @@
+.section {
+    color: aliceblue;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    margin-top: -16px;
+}
+
+.name_header {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    background-color: rgb(224, 202, 245);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    border: solid 2px;
+}
+
+.input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
